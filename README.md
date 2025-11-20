@@ -21,10 +21,10 @@ The N-Queens problem is a classic constraint satisfaction challenge. Instead of 
 
 | Algorithm | Type | Scalability | Success Rate (N=10-200) | Key Insight |
 | :--- | :--- | :--- | :--- | :--- |
-| **DFS** | Exact | Low | 50% (Failed > N=10) | [cite_start]Precise for small N, but computationally infeasible for large inputs due to exponential growth [cite: 1002-1003]. |
-| **Hill Climbing** | Greedy | Low | 0% (in tests) | [cite_start]Extremely fast but consistently trapped in local optima, failing to solve larger boards [cite: 1004-1005]. |
-| **Simulated Annealing** | Probabilistic | High | **60%** | The most robust performer. [cite_start]Effectively escaped local optima by allowing "bad moves" based on temperature [cite: 1006-1007]. |
-| **Genetic Algorithm** | Evolutionary | Medium | 20% | [cite_start]Scalable logic but required extensive tuning of population/mutation rates to converge [cite: 1009-1010]. |
+| **DFS** | Exact | Low | 50% (Failed > N=10) | Precise for small N, but computationally infeasible for large inputs due to exponential growth. |
+| **Hill Climbing** | Greedy | Low | 0% (in tests) | Extremely fast but consistently trapped in local optima, failing to solve larger boards. |
+| **Simulated Annealing** | Probabilistic | High | **60%** | The most robust performer. Effectively escaped local optima by allowing "bad moves" based on temperature. |
+| **Genetic Algorithm** | Evolutionary | Medium | 20% | Scalable logic but required extensive tuning of population/mutation rates to converge. |
 
 ---
 
